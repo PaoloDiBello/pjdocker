@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  pjdocker: 
+    container_name: backend
+    # image: node:jessie
+    build: ./
+    command: npm start
+    working_dir: /pjdocker/
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./:/pjdocker/
+    
