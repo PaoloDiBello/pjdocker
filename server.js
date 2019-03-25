@@ -1,7 +1,7 @@
 const express = require('express');
 
 const app = express();
-console.log("121a1s2aasss");
+console.log("101101");
 app.get('/', (req, res) => {
     res.send("hi")
 });

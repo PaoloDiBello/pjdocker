@@ -7,6 +7,8 @@ services:
     build: ./
     command: npm start
     working_dir: /pjdocker/
+    enviroment: 
+      SECRET_ENV: THIS_IS_A_SECRET
     ports:
       - "3001:3001"
     volumes:
